@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RootNamespace>Inasync</RootNamespace>
+    <Authors>inasync</Authors>
+    <Description>BaseXX is a simple library for base-N encoding.</Description>
+    <PackageProjectUrl>https://github.com/in-async/BaseXX</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/in-async/BaseXX/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>library</PackageTags>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="4.5.3" />
+  </ItemGroup>
+
+</Project>
